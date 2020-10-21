@@ -17,7 +17,7 @@ To reconstruct the 1-shot, 5-way experiment with the NP-RepMet from the NeurIPS 
 To reconstruct the 5-shot, 5-way experiment with the NP-RepMet from the NeurIPS paper, run
 
 `python fpn/few_shot_benchmark_5_shot.py --test_name=RepMet_inloc  --Nshot=5 --Nway=5 --Nquery_cat=10 --Nepisodes=500`
-### NP-RepMet traning:
+#### NP-RepMet traning:
 To train the model from scratch, run
 
 `python ./experiments/fpn_end2end_train_test.py --cfg=./experiments/cfgs/resnet_v1_101_voc0712_trainval_fpn_dcn_oneshot_end2end_ohem_8.yaml`
@@ -30,4 +30,5 @@ title={Restoring Negative Information in Few-Shot Object Detection},
 author={Yukuan Yang, Fangyun Wei, Miaojing Shi, Guoqi Li},   
 booktitle={Conference on Neural Information Processing Systems},   
 year={2020}
+
 }.
