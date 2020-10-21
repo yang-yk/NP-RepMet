@@ -22,7 +22,11 @@ If you find this paper or this repository helpful, please cite it:
   
   @inproceedings{np_repmet,
   title={Restoring Negative Information in Few-Shot Object Detection},
+  
   author={Yukuan Yang, Fangyun Wei, Miaojing Shi, Guoqi Li},
+  
   booktitle={Conference on Neural Information Processing Systems},
+  
   year={2020}
+  
   }.
