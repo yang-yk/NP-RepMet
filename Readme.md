@@ -2,7 +2,7 @@
 This is the codebase for the NeurIPS 2020 paper "**Restoring Negative Information in Few-Shot Object Detection**". 
 The code will be continuously improved. For any questions/issues, please open an issue in this repository or email me at <yyk17@mails.tsinghua.edu.cn>.
 ### Operating Environment
-The codebase is modified on the basis of RepMet (<https://github.com/jshtok/RepMet>). It is built based on Python 2.7, MXNet 1.5.1, and CUDA 10.0.130. Other packages include matplotlib, opecv-python, PyYAML, etc. You may need to change some file paths to run the code.
+The codebase is modified on the basis of RepMet (<https://github.com/jshtok/RepMet>). It is built based on Python 2.7, MXNet 1.5.1, and CUDA 10.0.130. Other packages include matplotlib, opencv-python, PyYAML, etc. You may need to change some file paths to run the code.
 ### Preparing Data 
 #### Dataset 
 wget -c http://image-net.org/image/ILSVRC2017/ILSVRC2017_CLS-LOC.tar.gz
@@ -29,6 +29,4 @@ np_repmet,
 title={Restoring Negative Information in Few-Shot Object Detection},   
 author={Yukuan Yang, Fangyun Wei, Miaojing Shi, Guoqi Li},   
 booktitle={Conference on Neural Information Processing Systems},   
-year={2020}
-
-}.
+year={2020}}.
