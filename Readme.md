@@ -23,9 +23,9 @@ To train the model from scratch, run
 `python ./experiments/fpn_end2end_train_test.py --cfg=./experiments/cfgs/resnet_v1_101_voc0712_trainval_fpn_dcn_oneshot_end2end_ohem_8.yaml`
 ### Reference:
 If you find this paper or this repository helpful, please cite it:
-  @inproceedings{np_repmet,
-  title={Restoring Negative Information in Few-Shot Object Detection},
-  author={Yukuan Yang, Fangyun Wei, Miaojing Shi, Guoqi Li},
-  booktitle={Conference on Neural Information Processing Systems},
-  year={2020}  
-  }.
+@inproceedings{np_repmet,
+title={Restoring Negative Information in Few-Shot Object Detection},
+author={Yukuan Yang, Fangyun Wei, Miaojing Shi, Guoqi Li},
+booktitle={Conference on Neural Information Processing Systems},
+year={2020}  
+}.
