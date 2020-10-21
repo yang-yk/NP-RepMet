@@ -11,8 +11,11 @@ Please download the data from <https://cloud.tsinghua.edu.cn/f/461fd3c8ca4f46fbb
 #### Code execution
 #### NP-RepMet test:
 To reconstruct the 1-shot, 5-way experiment with the NP-RepMet from the NeurIPS paper, run
+
 `python fpn/few_shot_benchmark_1_shot.py --test_name=RepMet_inloc  --Nshot=1 --Nway=5 --Nquery_cat=10 --Nepisodes=500`
+
 To reconstruct the 5-shot, 5-way experiment with the NP-RepMet from the NeurIPS paper, run
+
 `python fpn/few_shot_benchmark_5_shot.py --test_name=RepMet_inloc  --Nshot=5 --Nway=5 --Nquery_cat=10 --Nepisodes=500`
 #### NP-RepMet traning:
 To train the model from scratch, run
