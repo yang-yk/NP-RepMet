@@ -18,3 +18,19 @@ To reconstruct the 5-shot, 5-way experiment with the NP-RepMet from the NeurIPS 
 #### NP-RepMet Traning:  
 To train the model from scratch, run  
 `python ./experiments/fpn_end2end_train_test.py --cfg=./experiments/cfgs/resnet_v1_101_voc0712_trainval_fpn_dcn_oneshot_end2end_ohem_8.yaml`
+#### Citation
+@ARTICLE{2020arXiv201011714Y,
+       author = {{Yang}, Yukuan and {Wei}, Fangyun and {Shi}, Miaojing and {Li}, Guoqi},
+        title = "{Restoring Negative Information in Few-Shot Object Detection}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Artificial Intelligence},
+         year = 2020,
+        month = oct,
+          eid = {arXiv:2010.11714},
+        pages = {arXiv:2010.11714},
+archivePrefix = {arXiv},
+       eprint = {2010.11714},
+ primaryClass = {cs.CV},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv201011714Y},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
